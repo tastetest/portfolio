@@ -3,7 +3,7 @@ import react from 'react';
 const header = () => {
 	
 	return (
-		<div>
+		<div style={{color: "#AFA060"}}>
 			Something
 		</div>
 	)
