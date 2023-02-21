@@ -10,3 +10,8 @@ The idea for it is to have a "programmer" feel to it, since i really love progra
 (maybe every command starts with $ or something.)
 3. I could make TS compare the input value you have so it can perform an action
 4. because this is input heavy, it would be important to sanitize inputs so they are still safe to use( mayde use antd?)
+
+## Packages/dependencies used:
+
+- React router
+- antd Components
