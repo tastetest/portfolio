@@ -9,7 +9,6 @@ function App() {
 
       <div className="container">
 
-        <h1>Hi. I'm Jayden. Online, i mostly go by ttj_ </h1>
         <HeaderComponent />
 
         <SearchComponent />

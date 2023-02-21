@@ -1,8 +1,10 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"):root {
+
 	--primary: #AD8350;
 	--background: #2A1A1F;
 	--highlight: #AFA060;
 	--secondary: #764134;
+	--headerFont: 'Roboto Mono';
 }
 
 /* some css color variables*/
@@ -13,5 +15,17 @@
 
 
 h1 {
-	color: var(--primary);
+	color: var(primary);
+	font-family: var(headerFont);
+}
+
+p {
+	font-family: var(headerFont), monospace;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
