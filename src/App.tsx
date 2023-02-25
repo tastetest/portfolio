@@ -8,9 +8,7 @@ function App() {
     <div className="App">
 
       <div className="container">
-
         <HeaderComponent />
-
         <SearchComponent />
       </div>
     </div>
