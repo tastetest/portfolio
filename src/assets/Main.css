@@ -1,27 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"):root {
-
+:root {
 	--primary: #AD8350;
 	--background: #2A1A1F;
 	--highlight: #AFA060;
 	--secondary: #764134;
 	--headerFont: 'Roboto Mono';
+
+	--charcoal: #424651;
+	--gray: #9f9fad;
+	--paleBlue: #aecfdf;
+	--tiffanyBlue: #81e4da;
+	--aquaMarine: #47e5bc;
+
 }
 
 /* some css color variables*/
 
 * {
-	background-color: #2A1A1F;
+	background-color: black;
 }
 
 
 h1 {
-	color: var(primary);
-	font-family: var(headerFont);
+	color: var(--aquaMarine);
 }
 
-p {
-	font-family: var(headerFont), monospace;
-}
+/*p {
+font-family: var(headerFont), monospace;
+}*/
 
 .container {
 	display: flex;

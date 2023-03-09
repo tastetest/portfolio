@@ -8,9 +8,8 @@ const SearchComponent = () => {
 	return (
 
 		<Search
-			placeholder="input search text"
-			allowClear
-			enterButton="Search"
+			placeholder="type something like 'cd about'..."
+			style={{ width: '50%' }}
 			size="large"
 		/>
 	)
